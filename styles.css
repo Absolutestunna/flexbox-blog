@@ -1,0 +1,21 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    border: 2px solid red;
+    padding-top: 30px;
+    /* background-image: url('https://static.pexels.com/photos/429247/pexels-photo-429247.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.header-content {
+    /* display: flex;
+    justify-content: center; */
+}
