@@ -4,10 +4,19 @@
   box-sizing: border-box;
 }
 
+
+.header-content,
+.creative-content,
+.footer-content {
+    width: 45%;
+}
+
+/*  HEADER  */
+
 .header-container {
     display: flex;
     justify-content: center;
-    height: 500px;
+    height: 390px;
     border: 2px solid red;
     padding-top: 30px;
     /* background-image: url('https://static.pexels.com/photos/429247/pexels-photo-429247.jpeg');
@@ -15,7 +24,35 @@
     background-size: cover; */
 }
 
-.header-content {
-    /* display: flex;
-    justify-content: center; */
+ /* .header-content {
+    display: flex;
+    justify-content: center; 
+}  */
+
+/*  BODY  */
+
+.creative-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.par {
+    margin-top: 40px;
+}
+
+/*  FOOTER  */
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    color: white;
+    height: 50px;
+    margin-top: 60px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
 }
