@@ -80,6 +80,8 @@
     margin-top: 40px; 
     text-align-last: left;
     color: #777676;
+    font-family: 'PT Serif', serif;
+
 
 }
 
@@ -126,7 +128,8 @@
     color: white;
     height: 51px;
     margin-top: 60px;
-    padding-top: 13px;
+    padding-top: 19px;
+    font-size: larger;
 }
 
 .footer-content {
