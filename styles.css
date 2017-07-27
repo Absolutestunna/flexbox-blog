@@ -4,48 +4,119 @@
   box-sizing: border-box;
 }
 
+.header-container,
+.creative-container,
+.logo-container,
+.header-title-container,
+.footer-container,
+.sub-title,
+.social-medial-contacts {
+    display: flex;
+    justify-content: center;
+}
 
 .header-content,
 .creative-content,
 .footer-content {
-    width: 45%;
+    width: 50%;
+    
+}
+
+.header-title-content,
+.sub-title,
+.creative-title,
+.creative-author-time,
+.soc-button {
+    text-align: center;
+    vertical-align: middle; 
 }
 
 /*  HEADER  */
 
 .header-container {
-    display: flex;
-    justify-content: center;
-    height: 390px;
-    border: 2px solid red;
-    padding-top: 30px;
-    /* background-image: url('https://static.pexels.com/photos/429247/pexels-photo-429247.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover; */
+    height: 560px;
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+    /* background-repeat: no-repeat;
+    background-size: cover;    
+    background-image: url('https://static.pexels.com/photos/475729/pexels-photo-475729.jpeg');   */
+}
+ .logo-container {
+    margin-bottom: 150px;
+}  
+
+.logo {
+    border: 1px solid white;
+    padding: 8px 12px;
 }
 
- /* .header-content {
-    display: flex;
-    justify-content: center; 
-}  */
+.header-title-content {
+    font-size: 2.6em;
+}
+
+.sub-title {
+    margin: 20px 0;
+}
 
 /*  BODY  */
 
 .creative-container {
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
+    padding-top: 100px;
 }
 
+.creative-title {
+    margin-bottom: 22px;
+}
+
+
+.creative-author-time {
+    margin-bottom: 10px;
+}
 .par {
     margin-top: 40px;
+}
+
+.social-medial-contacts {
+    margin-top: 30px;
+}
+
+.soc-button {
+    /* border: 1px solid black; */
+    flex: 1;
+    height: 40px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
+
+.soc-button:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.google {
+    border-right: 1px solid black;
+}
+
+.linkedin:hover {
+    background-color: #0077B5;
+}
+.twitter:hover {
+    background-color: #1b95e0;
+}
+.facebook:hover {
+    background-color: #3b5998;
+}
+
+.google:hover {
+    background-color: #e2514e;
 }
 
 /*  FOOTER  */
 
 .footer-container {
-    display: flex;
-    justify-content: center;
     background-color: gray;
     color: white;
     height: 50px;
@@ -53,6 +124,7 @@
 }
 
 .footer-content {
-    display: flex;
-    justify-content: center;
+     display: flex;
+    justify-content: center;  
 }
+
