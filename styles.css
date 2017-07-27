@@ -26,15 +26,26 @@
 
 /*  HEADER  */
 
+.overlay {
+    background-image: url(https://static.pexels.com/photos/475729/pexels-photo-475729.jpeg); 
+    position: relative; 
+    padding: 0; 
+    margin: 0; 
+    height:560px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
 .header-container {
-    height: 560px;
     padding-top: 20px;
-    background-color: black;
     color: white;
     font-family: 'Bentham', serif;
-    /* background-repeat: no-repeat;
-    background-size: cover;    
-    background-image: url('https://static.pexels.com/photos/475729/pexels-photo-475729.jpeg');   */
+    background-color: rgba(0,0,0,0.65); 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%;
 }
  .logo-container {
     margin-bottom: 120px;
